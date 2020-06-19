@@ -5,7 +5,7 @@ their own HAL from scratch using the microcontroller documentation. It is fully 
 
 * `/documentation` contains the datasheet and the reference
 
-* `/examples/led_button.c` is a simple example that uses low level abstraction for button and LED interaction
+* `/examples/button_blinky.c` is a simple example that uses low level abstraction for button and LED interaction
 
 # Installation Requirements
 
