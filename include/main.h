@@ -71,5 +71,3 @@ typedef struct
 #define LED_NUM (1)
 
 const unsigned long led_mask[] = {1ul << 5};
-
-void SystemInit(void) {}
