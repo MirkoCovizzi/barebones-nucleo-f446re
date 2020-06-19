@@ -25,7 +25,7 @@ SET(CMAKE_EXE_LINKER_FLAGS_INIT "-Wl,-gc-sections,--print-memory-usage -T ${LINK
 
 PROJECT(barebones-nucleo-f446re C ASM)
 
-file(GLOB_RECURSE SOURCES "src/*.*" "include/*.*")
+file(GLOB_RECURSE SOURCES "src/*.*" "include/*.*" "startup/*.*")
 
 include_directories(include)
 
