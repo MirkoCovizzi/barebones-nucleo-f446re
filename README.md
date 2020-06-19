@@ -6,3 +6,9 @@ their own HAL from scratch using the microcontroller documentation. It is fully 
 * `/documentation` contains the datasheet and the reference
 
 * `/examples/led_button.c` is a simple example that uses low level abstraction for button and LED interaction
+
+# Installation Requirements
+
+* [GNU Arm Embedded Toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
+
+* [OpenOCD](https://xpack.github.io/openocd/)
