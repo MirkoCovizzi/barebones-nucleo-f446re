@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    // Your code here
+    // Insert your code here
 
     return 0;
 }
