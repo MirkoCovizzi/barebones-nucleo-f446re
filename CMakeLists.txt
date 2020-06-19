@@ -11,7 +11,7 @@ set(CMAKE_OBJDUMP arm-none-eabi-objdump)
 set(SIZE arm-none-eabi-size)
 
 SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F446RETx_FLASH.ld)
-SET(STARTUP ${CMAKE_SOURCE_DIR}/startup_stm32f446xx.s)
+SET(STARTUP ${CMAKE_SOURCE_DIR}/startup/startup_stm32f446xx.s)
 
 SET(FPU_FLAGS "-mfloat-abi=hard -mfpu=fpv4-sp-d16")
 add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1)
