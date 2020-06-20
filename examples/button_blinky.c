@@ -136,13 +136,12 @@ int main(void)
     LED_Initialize();
     Buttons_Initialize();
 
-    uint32_t i;
     while (1) {
         if (Buttons_GetState() == 1) {
             LED_On(0);
-            for (i = 0; i < 500000; i++);
+            for (uint32_t i = 0; i < 500000; i++);
             LED_Off(0);
-            for (i = 0; i < 500000; i++);
+            for (uint32_t i = 0; i < 500000; i++);
         }
     }
 }
